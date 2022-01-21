@@ -1,10 +1,10 @@
-import java.util.*;
+import java.util.LinkedList;
 
 public class QueueExample 
 {
 public static void main(String[] args) 
 {
-	Queue<String> locationsQueue =  new LinkedList<>();
+	LinkedList<String> locationsQueue =  new LinkedList<>();
 locationsQueue.add("Kolkata");
         		locationsQueue.add("Patna");
         		locationsQueue.add("Delhi");
